@@ -12,6 +12,8 @@
 		583B8AD0209E1F79009F54C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583B8ACE209E1F79009F54C3 /* Main.storyboard */; };
 		583B8AD2209E1F7A009F54C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 583B8AD1209E1F7A009F54C3 /* Assets.xcassets */; };
 		583B8AD5209E1F7A009F54C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 583B8AD3209E1F7A009F54C3 /* LaunchScreen.storyboard */; };
+		583B8ADF209E23EB009F54C3 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583B8ADE209E23EB009F54C3 /* Country.swift */; };
+		58D5E5B1209E24C9006089C1 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D5E5B0209E24C9006089C1 /* CountryList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		583B8AD1209E1F7A009F54C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		583B8AD4209E1F7A009F54C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		583B8AD6209E1F7A009F54C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		583B8ADE209E23EB009F54C3 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		58D5E5B0209E24C9006089C1 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				583B8ACA209E1F79009F54C3 /* AppDelegate.swift */,
 				583B8ACC209E1F79009F54C3 /* ViewController.swift */,
+				583B8ADE209E23EB009F54C3 /* Country.swift */,
+				58D5E5B0209E24C9006089C1 /* CountryList.swift */,
 				583B8ACE209E1F79009F54C3 /* Main.storyboard */,
 				583B8AD1209E1F7A009F54C3 /* Assets.xcassets */,
 				583B8AD3209E1F7A009F54C3 /* LaunchScreen.storyboard */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D5E5B1209E24C9006089C1 /* CountryList.swift in Sources */,
 				583B8ACD209E1F79009F54C3 /* ViewController.swift in Sources */,
+				583B8ADF209E23EB009F54C3 /* Country.swift in Sources */,
 				583B8ACB209E1F79009F54C3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6UT6A87VB;
 				INFOPLIST_FILE = SearchController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y6UT6A87VB;
 				INFOPLIST_FILE = SearchController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
